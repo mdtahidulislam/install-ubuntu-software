@@ -28,7 +28,7 @@
 link - https://antigravity.google/download/linux
 
 ## git
-
+```
 install
 -- sudo apt update
    sudo apt install git -y
@@ -39,13 +39,16 @@ global user
    
 SSH key
 -- link: https://claude.ai/share/a5f90056-3382-4641-8bc0-4ddfb4fea389
+```
 
 ## ngrok
-
+```
 -- sudo snap install ngrok
    authenticate using token
+```
 
 ## FileZilla
-
+```
 -- sudo apt update
    sudo apt install filezilla -y
+```
