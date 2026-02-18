@@ -1,5 +1,4 @@
-# install-ubuntu-software
-install node.js using nvm
+## install node.js using nvm
 =========================
 -- sudo apt update
    sudo apt upgrade -y
@@ -24,11 +23,11 @@ install node.js using nvm
    sudo apt remove build-essential libssl-dev -y
    sudo apt autoremove -y
    
-antigravity
+## antigravity
 ===========
 link - https://antigravity.google/download/linux
 
-git
+## git
 ===
 install
 -- sudo apt update
@@ -41,12 +40,12 @@ global user
 SSH key
 -- link: https://claude.ai/share/a5f90056-3382-4641-8bc0-4ddfb4fea389
 
-ngrok
+## ngrok
 =====
 -- sudo snap install ngrok
    authenticate using token
 
-FileZilla
+## FileZilla
 ==========
 -- sudo apt update
    sudo apt install filezilla -y
