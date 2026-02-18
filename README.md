@@ -46,7 +46,7 @@ ngrok
 -- sudo snap install ngrok
    authenticate using token
 
-fFileZilla
+FileZilla
 ==========
 -- sudo apt update
    sudo apt install filezilla -y
