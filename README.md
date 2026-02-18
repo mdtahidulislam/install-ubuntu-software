@@ -1,5 +1,5 @@
 ## install node.js using nvm
-
+```
 -- sudo apt update
    sudo apt upgrade -y
 
@@ -22,7 +22,7 @@
 -- sudo apt remove curl -y
    sudo apt remove build-essential libssl-dev -y
    sudo apt autoremove -y
-   
+```   
 ## antigravity
 
 link - https://antigravity.google/download/linux
