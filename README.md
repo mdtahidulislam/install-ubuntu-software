@@ -52,3 +52,6 @@ SSH key
 -- sudo apt update
    sudo apt install filezilla -y
 ```
+
+## Claude Desktop
+-- link: [link](https://github.com/aaddrick/claude-desktop-debian)
