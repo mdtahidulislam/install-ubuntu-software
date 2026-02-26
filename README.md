@@ -54,4 +54,5 @@ SSH key
 ```
 
 ## Claude Desktop
--- link: [link](https://github.com/aaddrick/claude-desktop-debian)
+-- link: [git](https://github.com/aaddrick/claude-desktop-debian)
+-- link: [reddit](https://www.reddit.com/r/ClaudeAI/comments/1hmrtlz/claude_desktop_for_debianbased_linux/)
