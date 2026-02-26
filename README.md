@@ -54,5 +54,31 @@ SSH key
 ```
 
 ## Claude Desktop
+***Download***
+```
+curl -fsSL https://aaddrick.github.io/claude-desktop-debian/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/claude-desktop.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/claude-desktop.gpg arch=amd64,arm64] https://aaddrick.github.io/claude-desktop-debian stable main" | sudo tee /etc/apt/sources.list.d/claude-desktop.list
+
+sudo apt update
+sudo apt install claude-desktop
+```
+
+***MCP Server config for filesystem***
+```
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/<name>/Desktop",
+        "/home/<name>/Downloads"
+      ]
+    }
+  }
+}
+```
 * link: [git](https://github.com/aaddrick/claude-desktop-debian)
 * link: [reddit](https://www.reddit.com/r/ClaudeAI/comments/1hmrtlz/claude_desktop_for_debianbased_linux/)
