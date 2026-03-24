@@ -82,3 +82,15 @@ sudo apt install claude-desktop
 ```
 * link: [git](https://github.com/aaddrick/claude-desktop-debian)
 * link: [reddit](https://www.reddit.com/r/ClaudeAI/comments/1hmrtlz/claude_desktop_for_debianbased_linux/)
+
+## Kazam screen recorder
+***Install***
+```
+sudo apt update
+sudo apt install kazam -y
+```
+***Fix black screen***
+```
+sudo nano /etc/gdm3/custom.conf
+```
+uncomment waylandenable=false
