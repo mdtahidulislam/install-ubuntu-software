@@ -94,3 +94,16 @@ sudo apt install kazam -y
 sudo nano /etc/gdm3/custom.conf
 ```
 uncomment waylandenable=false
+
+
+## OBS
+
+```
+sudo apt update
+sudo apt install ffmpeg
+
+sudo add-apt-repository ppa:obsproject/obs-studio
+
+sudo apt update
+sudo apt install obs-studio
+```
