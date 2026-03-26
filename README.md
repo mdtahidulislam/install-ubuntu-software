@@ -112,6 +112,7 @@ sudo apt install obs-studio
 * Download latest version
 * Close local
 * Install & Fix Dependency Issues via terminal
+*local-x.x.x-linux.deb - downloaded file name
 ```
 sudo dpkg -i local-x.x.x-linux.deb
 sudo apt install -f
