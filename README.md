@@ -109,9 +109,9 @@ sudo apt install obs-studio
 ```
 
 ## Update localwp by Flywheel
-Download latest version
-Close local
-Install & Fix Dependency Issues via terminal
+* Download latest version
+* Close local
+* Install & Fix Dependency Issues via terminal
 ```
 sudo dpkg -i local-x.x.x-linux.deb
 sudo apt install -f
