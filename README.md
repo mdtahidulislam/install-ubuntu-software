@@ -107,3 +107,12 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
 sudo apt install obs-studio
 ```
+
+## Update localwp by Flywheel
+Download latest version
+Close local
+Install & Fix Dependency Issues via terminal
+```
+sudo dpkg -i local-x.x.x-linux.deb
+sudo apt install -f
+```
