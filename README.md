@@ -125,3 +125,8 @@ open bluetooth manager app
 select device and right click
 Audio Profile থ-> High Fidelity Playback (A2DP Sink) 
 ```
+
+## Stickynotes
+```
+https://github.com/pavel-glukhov/linsticky?tab=readme-ov-file#snap-store-recommended
+```
