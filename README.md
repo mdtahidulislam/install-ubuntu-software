@@ -117,3 +117,11 @@ sudo apt install obs-studio
 sudo dpkg -i local-x.x.x-linux.deb
 sudo apt install -f
 ```
+## Bluetooth Headphone sound interruption
+```
+sudo apt update && sudo apt install blueman
+
+open bluetooth manager app
+select device and right click
+Audio Profile থ-> High Fidelity Playback (A2DP Sink) 
+```
