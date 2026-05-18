@@ -117,10 +117,21 @@ sudo apt install obs-studio
 cd ~/Downloads && sudo dpkg -i local-x.x.x-linux.deb
 sudo apt install -f
 ```
-mysql error missing library libaio.so.1 fix: [link](https://claude.ai/chat/49e0320b-77b4-45f1-bf9e-63bf9e27406f)
+mysql error missing library fix: [link](https://claude.ai/chat/49e0320b-77b4-45f1-bf9e-63bf9e27406f)
 ```
 sudo apt install libaio1t64
 sudo ln -s /usr/lib/x86_64-linux-gnu/libaio.so.1t64 /usr/lib/x86_64-linux-gnu/libaio.so.1
+sudo ldconfig
+```
+```
+sudo apt install libncurses-dev
+sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
+sudo ldconfig
+```
+```
+sudo apt install libtinfo5
+# or symlink if not found:
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6 /usr/lib/x86_64-linux-gnu/libtinfo.so.5
 sudo ldconfig
 ```
 ## Bluetooth Headphone sound interruption
