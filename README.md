@@ -134,6 +134,17 @@ sudo apt install libtinfo5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6 /usr/lib/x86_64-linux-gnu/libtinfo.so.5
 sudo ldconfig
 ```
+**LocalWP launching issues:**
+```
+try to open using terminal: /opt/Local/local
+
+Fix (SUID sandbox permission issue):
+sudo chown root:root /opt/Local/chrome-sandbox
+sudo chmod 4755 /opt/Local/chrome-sandbox
+
+```
+
+
 ## Bluetooth Headphone sound interruption
 ```
 sudo apt update && sudo apt install blueman
