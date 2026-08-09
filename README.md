@@ -134,7 +134,8 @@ sudo apt install libtinfo5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6 /usr/lib/x86_64-linux-gnu/libtinfo.so.5
 sudo ldconfig
 ```
-**Fix LocalWP launching issues:**
+**Fix LocalWP launching issues:** 
+
 ***try to open using terminal:***
 ```
  /opt/Local/local
